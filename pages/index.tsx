@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { groupRankingState, userRankingState } from "./_app";
 import RankingCard from "../components/ranking-card";
 import Table from "../components/table";
-import style from "../styles/index-page.module.css";
+import style from "../styles/Index-page.module.css";
 
 const Home: NextPage = () => {
   const [groupRanking, setGroupRanking] = useRecoilState(groupRankingState);
